@@ -1,1 +1,0 @@
-export default function Admin() { return <div className="max-w-3xl mx-auto p-6">Admin portal placeholder.</div>; }
