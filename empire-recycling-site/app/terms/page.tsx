@@ -1,0 +1,1 @@
+export default function Terms() { return <div className="max-w-3xl mx-auto p-6">Terms of Use placeholder.</div>; }

@@ -1,0 +1,1 @@
+export default function Register() { return <div className="max-w-3xl mx-auto p-6">Registration page placeholder.</div>; }

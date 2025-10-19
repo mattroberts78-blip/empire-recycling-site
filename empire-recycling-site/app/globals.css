@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-green: #60B840;
+  --brand-green-2: #38B048;
+  --brand-dark: #106030;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-brushed-metal text-gray-800;
+}
+
+.header-link {
+  @apply text-gray-600 hover:text-gray-800 transition-colors;
+}
+
+.primary-btn {
+  @apply w-full md:w-[420px] rounded-2xl py-4 px-6 text-white font-semibold shadow-soft bg-brand-green hover:brightness-95 active:scale-[0.99] transition;
+}
