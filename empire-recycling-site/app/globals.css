@@ -23,3 +23,25 @@ body {
 .primary-btn {
   @apply w-full md:w-[420px] rounded-2xl py-4 px-6 text-white font-semibold shadow-soft bg-brand-green hover:brightness-95 active:scale-[0.99] transition;
 }
+/* existing imports above remain the same */
+
+body {
+  @apply bg-brushed-metal text-gray-800;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.header-link {
+  @apply text-gray-600 hover:text-gray-800 transition-colors;
+}
+
+/* Larger touch area on mobile, consistent width on desktop */
+.primary-btn {
+  @apply w-full rounded-2xl py-4 px-6 text-white font-semibold shadow-soft
+         bg-brand-green hover:brightness-95 active:scale-[0.99] transition;
+}
+
+/* At >= md, fix width so the two buttons align perfectly */
+@media (min-width: 768px) {
+  .primary-btn { width: 440px; }
+}
+
