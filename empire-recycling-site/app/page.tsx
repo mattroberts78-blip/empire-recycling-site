@@ -54,3 +54,17 @@ export default function Home() {
               Contact Us
             </Link>
             <Link href="/privacy" className="header-link">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="header-link">
+              Terms of Use
+            </Link>
+          </nav>
+          <div className="text-center">
+            © 2025 Empire Recycling of Alabama
+          </div>
+        </div>
+      </footer>
+    </main>
+  );
+}
