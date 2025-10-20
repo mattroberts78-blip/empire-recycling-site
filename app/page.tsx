@@ -33,7 +33,7 @@ export default function Home() {
       <section className="flex-1 flex items-center justify-center">
         <div className="w-full max-w-md sm:max-w-lg px-6 py-10">
           <div className="flex flex-col items-center justify-center space-y-5">
-            <Link href="/login" className="primary-btn w-full text-center">
+            <Link href="/user" className="primary-btn w-full text-center">
               User Login
             </Link>
             <Link href="/register" className="primary-btn w-full text-center">
